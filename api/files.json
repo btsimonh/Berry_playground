@@ -1,0 +1,11 @@
+{
+  "modules":[{
+      "name":"googleoauth",
+      "files":["/modules/googleapis/googleoauth.be"]
+    },{
+      "name":"googledrive",
+      "files":["/modules/googleapis/googledrive/gdrive.be"],
+      "dependencies":["googleoauth"]
+    }
+  ]
+}
