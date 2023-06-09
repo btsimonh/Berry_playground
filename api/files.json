@@ -4,7 +4,7 @@
       "files":[{"src":"/modules/googleapis/googleoauth.be", "dest":"/googleoauth.be"}]
     },{
       "name":"googledrive",
-      "files":[{"src":"/modules/googleapis/googledrive/gdrive.be", "dest":"/gdrive.be"],
+      "files":[{"src":"/modules/googleapis/googledrive/gdrive.be", "dest":"/gdrive.be"}],
       "dependencies":["googleoauth"]
     }
   ]
