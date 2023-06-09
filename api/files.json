@@ -1,10 +1,10 @@
 {
   "modules":[{
       "name":"googleoauth",
-      "files":["/modules/googleapis/googleoauth.be"]
+      "files":[{"src":"/modules/googleapis/googleoauth.be", "dest":"/googleoauth.be"}]
     },{
       "name":"googledrive",
-      "files":["/modules/googleapis/googledrive/gdrive.be"],
+      "files":[{"src":"/modules/googleapis/googledrive/gdrive.be", "dest":"/gdrive.be"],
       "dependencies":["googleoauth"]
     }
   ]
